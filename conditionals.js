@@ -34,15 +34,21 @@
 // }
 
 
-var jobPaiso = true;
-var savingAmount = 500;
+// var jobPaiso = true;
+// var savingAmount = 500;
 
-if ( jobPaiso = true && savingAmount > 100000){
-    console.log("Aso tomar patri khuji");
-}
-else if (jobPaiso == true){
-    console.log("acha koi din por dekhbo");
-}
-else{
-    console.log("tor kopale biya nai");
-}
+// if ( jobPaiso = true && savingAmount > 100000){
+//     console.log("Aso tomar patri khuji");
+// }
+// else if (jobPaiso == true){
+//     console.log("acha koi din por dekhbo");
+// }
+// else{
+//     console.log("tor kopale biya nai");
+// }
+
+
+// javasript date time 
+
+var date = new Date("1971-12-16");
+console.log(date);
