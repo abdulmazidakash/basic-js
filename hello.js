@@ -121,7 +121,24 @@
 // var result = name + price1;
 // console.log(result);
 
-var price1 = "Justin";
-var name = 'Bieber';
-var result = price1 + " " + name  ;
+// var price1 = "Justin";
+// var name = 'Bieber';
+// var result = price1 + " " + name  ;
+// console.log(result);
+
+// math absolute round ceil random floor
+
+// var number = -5;
+// var result = Math.abs(number); (note: negative value can do positive)
+// console.log(result);
+
+// var number = 5.4545;
+// var result = Math.round(number);
+// var result = Math.ceil(number); (note: ceiling/upper)
+// var result = Math.floor(number); (note: lower/down)
+// var result = Math.random(number); (note: always value change)
+// console.log(result);
+
+var number = Math.random() * 100;
+var result = Math.random(number);
 console.log(result);
